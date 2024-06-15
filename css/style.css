@@ -1,0 +1,41 @@
+.container {
+    max-width: 940px;
+    margin: auto;
+}
+header {
+    padding: 27px 0 24px 0;
+    background: linear-gradient(#d5d5d5, #fff, #fff, #fff);
+    text-align: center;
+}
+#menu { padding: 22px 0 0 0; }
+#menu li {
+    font: .7em Tahoma, sans-serif;
+    color: #b7b7b7;
+    padding: 0 11px 8px 11px;
+}
+
+#menu li a {
+    display: block;
+    font: bold .9rem Georgia, serif;
+    text-transform: uppercase;
+    color: #666;
+}
+main {
+    height: 1280px;
+    background: #fff url('../img/mainbg.jpg') repeat-x;
+}
+footer {
+    height: 183px;
+    background: #333;
+    border-top: 10px solid #4c4c4c;
+}
+
+/* Desktop version */
+@media only screen and (min-width: 768px) {
+    header { text-align: initial; }
+    menu { float: right }
+    #menu li {
+        display: inline-block;
+        border-left: 1px dotted #d6d6d6;
+    }
+}
